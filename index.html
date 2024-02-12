@@ -38,6 +38,9 @@
         <link rel="stylesheet" href="assets/css/vendor/gallery.min.css">
         <link rel="stylesheet" href="assets/css/vendor/cookie-notice.min.css">
 
+        <script src="assets/components/header.js" type="text/javascript" defer></script>
+        <script src="assets/components/footer.js" type="text/javascript" defer></script>
+
         <!-- ==============================================
         Custom Stylesheet
         =============================================== -->
@@ -70,61 +73,7 @@
     <body>
 
         <!-- Header -->
-        <header id="header">
-
-            <!-- Navbar -->
-            <nav data-aos="zoom-out" data-aos-delay="800" class="navbar navbar-expand">
-                <div class="container header">
-
-                    <!-- Navbar Brand-->
-                    <a class="navbar-brand" href="index.html">
-                        Dan Davison<i class="leverage-2-0"></i>
-                        <!-- 
-                            Custom Logo
-                            <img src="assets/images/logo.svg" alt="Leverage">
-                        -->
-                    </a>
-
-                    <!-- Nav holder -->
-                    <div class="ml-auto"></div>
-
-                    <!-- Navbar Items -->
-                    <ul class="navbar-nav items">
-                        <li class="nav-item dropdown">
-                            <a href="#" class="nav-link">Projects<i class="icon-arrow-down"></i></a>
-                            <ul class="dropdown-menu">
-                                <li class="nav-item"><a href="page-game-.html" class="nav-link">VR & Chronic Pain</a></li>
-                                <li class="nav-item"><a href="page-game-jostl.html" class="nav-link">JOSTL.</a></li>
-                                <li class="nav-item"><a href="page-game-tiltrocket.html" class="nav-link">Tilt Rocket</a></li>
-                            </ul>
-                        </li>      
-                        <li class="nav-item">
-                            <a href="page-about-2.html" class="nav-link">About<i class="nav-link"></i></a>
-                        </li>                 
-                    </ul>
-
-                    <!-- Navbar Icons -->
-                    <ul class="navbar-nav icons">
-                        <li class="nav-item social">
-                            <a href="https://www.linkedin.com/in/davisondan/" class="nav-link"><i class="icon-social-linkedin"></i></a>
-                        </li>
-                    </ul>
-
-                    <!-- Navbar Toggle -->
-                    <ul class="navbar-nav toggle">
-                        <li class="nav-item">
-                            <a href="#" class="nav-link" data-toggle="modal" data-target="#menu">
-                                <i class="icon-menu m-0"></i>
-                            </a>
-                        </li>
-                    </ul>
-
-                    <!-- Navbar Action -->
-                
-                </div>
-            </nav>
-
-        </header>
+        <header-component></header-component>
 
         <!-- Hero -->
         <section id="slider" class="hero p-0">
@@ -168,55 +117,34 @@
                         <div class="card no-hover">
                             <i class="icon icon-screen-smartphone"></i>
                             <h4>Mobile Apps</h4>
-                            <p>Augmeneted Reality Mobile Applications for eLearning and eCommerce.</p>
+                            <p>2D and 3D Mobile Applications for Android and Apple</p>
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4 item">
                         <div class="card no-hover">
                             <i class="icon icon-game-controller"></i>
-                            <h4>Mobile Games</h4>
+                            <h4>Video Games</h4>
                             <p>Hyper Fun, Hyper Casual Mobile Games.</p>
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4 item">
                         <div class="card no-hover">
                             <i class="icon icon-screen-desktop"></i>
-                            <h4>Virtual Reality</h4>
-                            <p>Virtual Reality products and games delivered for multiple VR headsets.</p>
+                            <h4>Augmented & Virtual Reality</h4>
+                            <p>Virtual Reality products and games.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-
-        <!-- About [video] -->
-        <section id="video" class="section-2 highlights image-center">
-            <div class="container smaller">
-                <div class="row text-center intro">
-                    <div class="col-12">
-                        <h2>About Me</h2>
-                        <p class="text-max-800">My name is Dan, and I'm a 24 year old Unity developer. I have a passion for creating innovative and engaging projects. In my free time I love playing football, and keeping fit. I'm always looking to push my skills to create the best proucts possible and I'm excited to show off my work.</p>
-                    </div>
-                </div>
-                <div class="row text-center">
-                    <div class="col-12 gallery">
-                        <a href="assets/images/news-4.png" class="square-image d-flex justify-content-center align-items-center">
-                            <img src="assets/images/news-4.png" alt="Zest Logo">
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Pricing -->
         
         <!-- Portfolio -->
-        <section id="portfolio" class="section-1 offers featured">
+        <section id="portfolio" class="section-2 highlights image-center">
             <div class="container">
                 <div class="row intro">
                     <div class="col-12 col-md-9 align-self-center text-center text-md-left">
-                        <h2 class="featured">Our Products</h2>
-                        <p>A range of games and applications for a range of platforms</p>
+                        <h2 class="featured">My work</h2>
+                        <p>Some of my recent projects.</p>
                     </div>
                     <div class="col-12 col-md-3 align-self-end">
                         <!--<a href="#" class="btn mx-auto mr-md-0 ml-md-auto primary-button"><i class="icon-grid"></i>VIEW ALL</a>-->
@@ -260,73 +188,8 @@
             </div>
         </section>
         
-        
         <!-- Footer -->
-        <footer class="odd">
-
-            <!-- Footer [links] -->
-            <section id="footer" class="footer">
-                <div class="container">
-                    <div class="row items footer-widget">
-                        <div class="col-12 col-lg-3 p-0">
-                            <div class="row">
-                                <div class="branding col-12 p-3 text-center text-lg-left item">
-                                    <div class="brand">
-                                        <a href="/" class="logo">
-                                            Socials.                                 
-                                            <!-- 
-                                                Custom Logo
-                                                <img src="assets/images/logo.svg" alt="Leverage">
-                                            -->
-                                        </a>
-                                    </div>
-                                    <p></p>
-                                    <ul class="navbar-nav social share-list mt-0 ml-auto">
-                                        <li class="nav-item">
-                                            <a href="https://www.linkedin.com/in/davisondan/" class="nav-link"><i class="icon-social-linkedin"></i></a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-lg-9 p-0">                            
-                            <div class="row">
-                                <div class="col-12 col-lg-4 p-3 text-center text-lg-left item">
-                                    <h4 class="title">Get in Touch</h4>
-                                    <ul class="navbar-nav">
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link">
-                                                <i class="icon-envelope mr-2"></i>
-                                                dandavison99@gmail.com
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                                
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!-- Copyright -->
-            <section id="copyright" class="p-3 copyright">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12 col-md-6 p-3 text-center text-lg-left">
-                            <p>Zest Studios</p>
-                            <!--
-                                Suggestion: Replace the text above with a description of your website.
-                             -->
-                        </div>
-                        <div class="col-12 col-md-6 p-3 text-center text-lg-right">
-                            <p>Zest Studios is Proudly Powered by <a href="https://codings.dev" target="_blank">Codings</a>.</p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-        </footer>
+       <footer-component></footer-component>
 
         <!-- #region Global ============================ -->
 
