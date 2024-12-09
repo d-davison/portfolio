@@ -3,40 +3,39 @@
 <html lang="en">
 
 <head>
-
     <!-- ==============================================
         Basic Page Needs
         =============================================== -->
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!--[if IE]><meta http-equiv="x-ua-compatible" content="IE=9" /><![endif]-->
 
-    <title>Zest Studios - Landing Pad</title>
+    <title>Dan Davison - Impact Display</title>
 
-    <meta name="description" content="Creative Agency, Portfolio, Corporate, Startup & Technology">
-    <meta name="subject" content="Creative Agency, Portfolio, Corporate, Startup & Technology">
-    <meta name="author" content="Codings">
+    <meta name="description" content="Creative Agency, Portfolio, Corporate, Startup & Technology" />
+    <meta name="subject" content="Creative Agency, Portfolio, Corporate, Startup & Technology" />
+    <meta name="author" content="Codings" />
 
     <!-- ==============================================
         Favicons
         =============================================== -->
-    <link rel="shortcut icon" href="assets/images/favicon.ico">
-    <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="assets/images/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="assets/images/apple-touch-icon-114x114.png">
+    <link rel="shortcut icon" href="assets/images/favicon.ico" />
+    <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/images/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/images/apple-touch-icon-114x114.png" />
 
     <!-- ==============================================
         Vendor Stylesheet
         =============================================== -->
-    <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/vendor/slider.min.css">
-    <link rel="stylesheet" href="assets/css/main.css">
-    <link rel="stylesheet" href="assets/css/vendor/icons.min.css">
-    <link rel="stylesheet" href="assets/css/vendor/animation.min.css">
-    <link rel="stylesheet" href="assets/css/vendor/gallery.min.css">
-    <link rel="stylesheet" href="assets/css/vendor/cookie-notice.min.css">
+    <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/vendor/slider.min.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/vendor/icons.min.css" />
+    <link rel="stylesheet" href="assets/css/vendor/animation.min.css" />
+    <link rel="stylesheet" href="assets/css/vendor/gallery.min.css" />
+    <link rel="stylesheet" href="assets/css/vendor/cookie-notice.min.css" />
 
     <script src="assets/components/header.js" type="text/javascript" defer></script>
     <script src="assets/components/footer.js" type="text/javascript" defer></script>
@@ -44,14 +43,16 @@
     <!-- ==============================================
         Custom Stylesheet
         =============================================== -->
-    <link rel="stylesheet" href="assets/css/default.css">
-    <link rel="stylesheet" href="assets/css/theme-pink.css">
+    <link rel="stylesheet" href="assets/css/default.css" />
+    <link rel="stylesheet" href="assets/css/theme-pink.css" />
 
     <!-- ==============================================
         Theme Settings
         =============================================== -->
     <style>
         :root {
+            --h1-size: 5rem;
+
             --header-bg-color: #111111;
             --nav-item-color: #f5f5f5;
             --top-nav-item-color: #f5f5f5;
@@ -59,103 +60,67 @@
 
             --section-1-bg-color: #f5f5f5;
             --section-2-bg-color: #eeeeee;
-            --section-3-bg-color: #111111;
-            --section-4-bg-color: #eeeeee;
-            --section-5-bg-color: #111111;
-            --section-6-bg-color: #f5f5f5;
+            --section-3-bg-color: #f5f5f5;
 
             --footer-bg-color: #191919;
         }
     </style>
-
 </head>
 
 <body>
-
     <!-- Header -->
     <header-component></header-component>
 
     <!-- Hero -->
-    <section id="slider" class="hero p-0">
-        <div class="swiper-container no-slider animation slider-h-100">
+    <section id="slider" class="hero p-0 odd featured">
+        <div class="swiper-container no-slider slider-h-50">
             <div class="swiper-wrapper">
-
                 <!-- Item 1 -->
                 <div class="swiper-slide slide-center">
+                    <img src="assets/images//bg-impactdisplay.jpg" class="full-image" data-mask="70" />
 
-                    <video class="full-image" data-mask="70" playsinline autoplay muted loop>
-                        <source src="assets/videos/zestbackground_4.mp4" type="video/mp4" />
-                    </video>
-
-                    <div class="slide-content row">
-                        <div class="col-12 d-flex inner">
-                            <div class="center align-self-center text-center">
-                                <h1 data-aos="zoom-out-up" data-aos-delay="400" class="title effect-static-text">DAN DAVISON</h1>
-                                <a href="#portfolio" data-aos="zoom-out-up" data-aos-delay="800" class="smooth-anchor ml-auto mr-auto mt-5 btn primary-button">
-                                    <i class="icon-cup"></i>Check out my work!</a>
-                            </div>
+                    <div class="slide-content row text-center">
+                        <div class="col-12 mx-auto inner">
+                            <h1 data-aos="zoom-out-up" data-aos-delay="400" class="title effect-static-text">
+                                Impact Display
+                            </h1>
                         </div>
                     </div>
                 </div>
-
             </div>
-            <div class="swiper-pagination"></div>
         </div>
     </section>
 
-    <!-- Portfolio -->
-    <section id="portfolio" class="section-2 highlights image-center">
+    <!-- Content -->
+    <section id="content" class="section-1 single featured">
         <div class="container">
-            <div class="row intro">
-                <div class="col-12 col-md-9 align-self-center text-center text-md-left">
-                    <h2 class="featured">My work</h2>
-                    <p>Some of my recent projects.</p>
-                </div>
-                <div class="col-12 col-md-3 align-self-end">
-                    <a href="page-portfolio.html" class="btn mx-auto mr-md-0 ml-md-auto primary-button">
-                        <i class="icon-grid"></i>View full portfolio</a>
-                </div>
-            </div>
+            <div class="row">
+                <!-- Main -->
+                <main class="col-12 p-0">
+                    <div class="row">
+                        <div class="col-12 align-self-center">
+                            <h2 class="featured mt-0 ml-0">Content</h2>
+                            <h7>(Freelance Project - 2021)</h7>
 
-            <div class="row justify-content-center text-center items">
+                            <p>
+                                Impact Dislay.
+                                <br />
+                            </p>
 
-                <div class="col-12 col-md-6 col-lg-4 item">
-                    <a href="page-game-jostl.html">
-                        <div class="card featured">
-                            <h4>JOSTL.</h4>
-                            <p style="color:#757575">A 3rd Screen Sports for Android and iOS</p>
-                            <img src="assets/images/work-jostl.jpg" alt="JOSTL. Logo">
+                            <div class="gallery">
+                                <a href="assets/images/news-impact.jpg">
+                                    <img src="assets/images/news-impact.jpg" class="w-100" />
+                                </a>
+                            </div>
                         </div>
-                    </a>
-                </div>
-
-                <div class="col-12 col-md-6 col-lg-4 item">
-                    <a href="page-game-vr-pain-manager.html">
-                        <div class="card">
-                            <h4>VR & Chronic Pain</h4>
-                            <p style="color:#757575">A Virtual Reality game for treating Chronic Pain</p>
-                            <img src="assets/images/work-vrchronicpain.jpg" alt="JOSTL.">
-                        </div>
-                    </a>
-                </div>
-
-                <div class="col-12 col-md-6 col-lg-4 item">
-                    <a href="page-game-tiltrocket.html">
-                        <div class="card">
-                            <h4>Tilt Rocket</h4>
-                            <p style="color:#757575">A Hyper Casual Rocket Game for Android</p>
-                            <img src="assets/images/work-tiltrocket.jpg" alt="JOSTL.">
-                        </div>
-                    </a>
-                </div>
-
+                    </div>
+                </main>
             </div>
         </div>
     </section>
 
     <!-- Footer -->
     <footer-component></footer-component>
-
     <!-- #region Global ============================ -->
 
     <!-- Modal [search] -->
@@ -172,18 +137,21 @@
                             <div class="row">
                                 <div class="col-12 p-0 pb-3">
                                     <h2>What are you looking for?</h2>
-                                    <p>Search for services and news about the best that happens in the world.</p>
+                                    <p>
+                                        Search for services and news about the best that happens in the world.
+                                    </p>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-12 p-0 input-group">
-                                    <input type="text" class="form-control" placeholder="Enter Keywords">
+                                    <input type="text" class="form-control" placeholder="Enter Keywords" />
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-12 p-0 input-group align-self-center">
                                     <button class="btn primary-button">
-                                        <i class="icon-magnifier"></i>SEARCH</button>
+                                        <i class="icon-magnifier"></i>SEARCH
+                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -207,22 +175,25 @@
                             <div class="row">
                                 <div class="col-12 p-0 pb-3">
                                     <h2>Sign In</h2>
-                                    <p>Don't have an account?
-                                        <a href="#" class="primary-color" data-toggle="modal" data-target="#register">Register now</a>.</p>
+                                    <p>
+                                        Don't have an account?
+                                        <a href="#" class="primary-color" data-toggle="modal" data-target="#register">Register now</a>.
+                                    </p>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-12 p-0 input-group">
-                                    <input type="email" class="form-control" placeholder="Email" required>
+                                    <input type="email" class="form-control" placeholder="Email" required />
                                 </div>
                                 <div class="col-12 p-0 input-group">
-                                    <input type="password" class="form-control" placeholder="Password" required>
+                                    <input type="password" class="form-control" placeholder="Password" required />
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-12 p-0 input-group align-self-center">
                                     <button class="btn primary-button">
-                                        <i class="icon-login"></i>LOGIN</button>
+                                        <i class="icon-login"></i>LOGIN
+                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -246,28 +217,31 @@
                             <div class="row">
                                 <div class="col-12 p-0 pb-3">
                                     <h2>Register</h2>
-                                    <p>Have an account?
-                                        <a href="#" class="primary-color" data-toggle="modal" data-target="#sign">Sign In</a>.</p>
+                                    <p>
+                                        Have an account?
+                                        <a href="#" class="primary-color" data-toggle="modal" data-target="#sign">Sign In</a>.
+                                    </p>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-12 p-0 input-group">
-                                    <input type="text" class="form-control" placeholder="Name" required>
+                                    <input type="text" class="form-control" placeholder="Name" required />
                                 </div>
                                 <div class="col-12 p-0 input-group">
-                                    <input type="email" class="form-control" placeholder="Email" required>
+                                    <input type="email" class="form-control" placeholder="Email" required />
                                 </div>
                                 <div class="col-12 p-0 input-group">
-                                    <input type="password" class="form-control" placeholder="Password" required>
+                                    <input type="password" class="form-control" placeholder="Password" required />
                                 </div>
                                 <div class="col-12 p-0 input-group">
-                                    <input type="password" class="form-control" placeholder="Confirm Password" required>
+                                    <input type="password" class="form-control" placeholder="Confirm Password" required />
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-12 p-0 input-group align-self-center">
                                     <button class="btn primary-button">
-                                        <i class="icon-rocket"></i>REGISTER</button>
+                                        <i class="icon-rocket"></i>REGISTER
+                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -331,7 +305,6 @@
     <script src="assets/js/main.js"></script>
 
     <!-- #endregion Global ========================= -->
-
 </body>
 
 </html>

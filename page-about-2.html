@@ -1,634 +1,411 @@
 <!DOCTYPE html>
 
 <html lang="en">
-  <head>
-    <!-- ==============================================
+
+<head>
+  <!-- ==============================================
         Basic Page Needs
         =============================================== -->
-    <meta charset="utf-8" />
-    <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!--[if IE]><meta http-equiv="x-ua-compatible" content="IE=9" /><![endif]-->
+  <!--[if IE]><meta http-equiv="x-ua-compatible" content="IE=9" /><![endif]-->
 
-    <title>Dan Davison - About Me</title>
+  <title>Dan Davison - About Me</title>
 
-    <meta
-      name="description"
-      content="Creative Agency, Portfolio, Corporate, Startup & Technology"
-    />
-    <meta
-      name="subject"
-      content="Creative Agency, Portfolio, Corporate, Startup & Technology"
-    />
-    <meta name="author" content="Codings" />
+  <meta name="description" content="Creative Agency, Portfolio, Corporate, Startup & Technology" />
+  <meta name="subject" content="Creative Agency, Portfolio, Corporate, Startup & Technology" />
+  <meta name="author" content="Codings" />
 
-    <!-- ==============================================
+  <!-- ==============================================
         Favicons
         =============================================== -->
-    <link rel="shortcut icon" href="assets/images/favicon.ico" />
-    <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png" />
-    <link
-      rel="apple-touch-icon"
-      sizes="72x72"
-      href="assets/images/apple-touch-icon-72x72.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="114x114"
-      href="assets/images/apple-touch-icon-114x114.png"
-    />
+  <link rel="shortcut icon" href="assets/images/favicon.ico" />
+  <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png" />
+  <link rel="apple-touch-icon" sizes="72x72" href="assets/images/apple-touch-icon-72x72.png" />
+  <link rel="apple-touch-icon" sizes="114x114" href="assets/images/apple-touch-icon-114x114.png" />
 
-    <!-- ==============================================
+  <!-- ==============================================
         Vendor Stylesheet
         =============================================== -->
-    <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css" />
-    <link rel="stylesheet" href="assets/css/vendor/slider.min.css" />
-    <link rel="stylesheet" href="assets/css/main.css" />
-    <link rel="stylesheet" href="assets/css/vendor/icons.min.css" />
-    <link rel="stylesheet" href="assets/css/vendor/animation.min.css" />
-    <link rel="stylesheet" href="assets/css/vendor/gallery.min.css" />
-    <link rel="stylesheet" href="assets/css/vendor/cookie-notice.min.css" />
+  <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css" />
+  <link rel="stylesheet" href="assets/css/vendor/slider.min.css" />
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <link rel="stylesheet" href="assets/css/vendor/icons.min.css" />
+  <link rel="stylesheet" href="assets/css/vendor/animation.min.css" />
+  <link rel="stylesheet" href="assets/css/vendor/gallery.min.css" />
+  <link rel="stylesheet" href="assets/css/vendor/cookie-notice.min.css" />
 
-    <script src="assets/components/header.js" type="text/javascript" defer></script>
-        <script src="assets/components/footer.js" type="text/javascript" defer></script>
+  <script src="assets/components/header.js" type="text/javascript" defer></script>
+  <script src="assets/components/footer.js" type="text/javascript" defer></script>
 
-    <!-- ==============================================
+  <!-- ==============================================
         Custom Stylesheet
         =============================================== -->
-    <link rel="stylesheet" href="assets/css/default.css" />
-    <link rel="stylesheet" href="assets/css/theme-pink.css" />
+  <link rel="stylesheet" href="assets/css/default.css" />
+  <link rel="stylesheet" href="assets/css/theme-pink.css" />
 
-    <!-- ==============================================
+  <!-- ==============================================
         Theme Settings
         =============================================== -->
-    <style>
-      :root {
-        --header-bg-color: #111111;
-        --nav-item-color: #f5f5f5;
-        --top-nav-item-color: #f5f5f5;
-        --hero-bg-color: #000000;
+  <style>
+    :root {
+      --header-bg-color: #111111;
+      --nav-item-color: #f5f5f5;
+      --top-nav-item-color: #f5f5f5;
+      --hero-bg-color: #000000;
 
-        --section-1-bg-color: #f5f5f5;
-        --section-2-bg-color: #111111;
-        --section-3-bg-color: #f5f5f5;
+      --section-1-bg-color: #f5f5f5;
+      --section-2-bg-color: #111111;
+      --section-3-bg-color: #f5f5f5;
 
-        --footer-bg-color: #191919;
-      }
-    </style>
-  </head>
+      --footer-bg-color: #191919;
+    }
+  </style>
+</head>
 
-  <body>
-    <!-- Header -->
-    <header-component></header-component>
+<body>
+  <!-- Header -->
+  <header-component></header-component>
 
-    <!-- Hero -->
-    <section id="slider" class="hero p-0 odd featured">
-      <div class="swiper-container no-slider slider-h-75">
-        <div class="swiper-wrapper">
-          <!-- Item 1 -->
-          <div class="swiper-slide slide-center">
-            <img
-              src="assets/images/bg-about.png"
-              class="full-image"
-              data-mask="70"
-            />
+  <!-- Hero -->
+  <section id="slider" class="hero p-0 odd featured">
+    <div class="swiper-container no-slider slider-h-50">
+      <div class="swiper-wrapper">
+        <!-- Item 1 -->
+        <div class="swiper-slide slide-center">
+          <img src="assets/images/bg-about.png" class="full-image" data-mask="70" />
 
-            <div class="slide-content row text-center">
-              <div class="col-12 mx-auto inner">
-                <h1
-                  data-aos="zoom-out-up"
-                  data-aos-delay="400"
-                  class="title effect-static-text"
-                >
-                  About Me
-                </h1>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-     <!-- Content -->
-     <section id="content" class="section-1 single">
-      <div class="container">
-          <div class="row">
-
-              <!-- Main -->
-              <main class="col-12 col-lg-8 p-0">
-                  <div class="row">
-                      <div class="col-12 align-self-center">
-                          <h2 class="featured mt-0 ml-0">About Me</h2>
-                          <p>Hi, I'm Dan. I'm a software developer, primarily with experience developing apps and games for mobile and VR</p>
-                          <p>I have 4 years of industry experience where I have developed Virtual Reality Experiences, worked on eLearning Mobile Games, and developed Sports applications using real-time sports data.
-                            as well as this, I have worked freelance, developing client visions from the initial concept phase, to publishing and releasing apps on both Google Play Store and the Apple App Store.
-                          </p>
-                          <!--<p>
-                              <blockquote>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quam tortor, ultrices accumsan mauris eget, pulvinar tincidunt erat. Sed nisi nisi, rutrum sit amet elit.</blockquote>
-                          </p>-->
-                          <p>I have a keen eye for detail and commitment to staying updated with the latest industry trends. Whether it's developing captivating applications, or optimizing video games, I enjoy tackling new challenges and pushing my own professional boundaries.</p>
-                          <h4>Here's some of my key accomplishments.</h4>
-                          <ul>
-                              <li>Produced countless AR and VR projects for clients.</li>
-                              <li>Worked on multiple published mobile games and applications.</li>
-                              <li>Helped develop back-end and front-end development tools.</li>
-                              <li>Worked collaboratively with developers and designers to create apps and games.</li>
-                              <li>Worked directly with clients to fully captivate a client's vision</li>
-                          </ul>
-                          <p>Feel free to explore my portfolio to see some of the exciting projects I have worked on. Connect with me on LinkedIn to </p>
-                        </div>
-                  </div>        
-              </main>
-
-              <!-- Sidebar -->
-              <aside class="col-12 col-lg-4 pl-lg-5 p-0 float-right sidebar">                    
-                  <div class="row">
-                      <div class="col-12 align-self-center text-left">
-
-                          <!-- Widget [services] -->
-                          <div class="item widget-services">
-                              <ul class="list-group list-group-flush">
-                                  <li class="list-group-item">
-                                      <a href="#">
-                                          <i class="icon icon-badge"></i>
-                                          <h5>Quality</h5>
-                                      </a>
-                                  </li>
-                                  <li class="list-group-item">
-                                      <a href="#">
-                                          <i class="icon icon-briefcase"></i>
-                                          <h5>Experience</h5>
-                                      </a>
-                                  </li>
-                                  <li class="list-group-item">
-                                      <a href="#">
-                                          <i class="icon icon-star"></i>
-                                          <h5>Passion</h5>
-                                      </a>
-                                  </li>
-                              </ul>
-                          </div>
-
-                          <!-- Widget [testimonials] -->
-                          <div class="item widget-carousel">
-                              <div class="swiper-container mid-slider-simple items" data-perview="1">
-                                  <div class="swiper-wrapper">
-                                      <div class="swiper-slide slide-center text-center item">
-                                          <div class="row card">
-                                              <div class="col-12">
-                                                  <img src="assets/images/about-otherpersonlogo.jpg" alt="Jared Merritt" class="person">
-                                                  <h4>Jared Merritt - CEO of Binary Spiders</h4>
-                                                  <p>Fantastic experience working with Dan.</p>
-                                                  <ul class="navbar-nav social share-list ml-auto">
-                                                      <li class="nav-item">
-                                                          <a href="#" class="nav-link"><i class="icon-star ml-2 mr-2"></i></a>
-                                                      </li>
-                                                      <li class="nav-item">
-                                                          <a href="#" class="nav-link"><i class="icon-star ml-2 mr-2"></i></a>
-                                                      </li>
-                                                      <li class="nav-item">
-                                                          <a href="#" class="nav-link"><i class="icon-star ml-2 mr-2"></i></a>
-                                                      </li>
-                                                      <li class="nav-item">
-                                                          <a href="#" class="nav-link"><i class="icon-star ml-2 mr-2"></i></a>
-                                                      </li>
-                                                      <li class="nav-item">
-                                                          <a href="#" class="nav-link"><i class="icon-star ml-2 mr-2"></i></a>
-                                                      </li>
-                                                  </ul>
-                                              </div>
-                                          </div>
-                                      </div>
-                                      <div class="swiper-slide slide-center text-center item">
-                                          <div class="row card">
-                                              <div class="col-12">
-                                                  <img src="assets/images/about-otherpersonlogo.jpg" alt="Impact Display" class="person">
-                                                  <h4>Impact Display</h4>
-                                                  <p>Dan is both talented in AR/3D and pleasant to work with. We look forward to future projects with him.</p>
-                                                  <ul class="navbar-nav social share-list ml-auto">
-                                                      <li class="nav-item">
-                                                          <a href="#" class="nav-link"><i class="icon-star ml-2 mr-2"></i></a>
-                                                      </li>
-                                                      <li class="nav-item">
-                                                          <a href="#" class="nav-link"><i class="icon-star ml-2 mr-2"></i></a>
-                                                      </li>
-                                                      <li class="nav-item">
-                                                          <a href="#" class="nav-link"><i class="icon-star ml-2 mr-2"></i></a>
-                                                      </li>
-                                                      <li class="nav-item">
-                                                          <a href="#" class="nav-link"><i class="icon-star ml-2 mr-2"></i></a>
-                                                      </li>
-                                                      <li class="nav-item">
-                                                        <a href="#" class="nav-link"><i class="icon-star ml-2 mr-2"></i></a>
-                                                      </li>
-                                                  </ul>
-                                              </div>
-                                          </div>
-                                      </div>
-                                      <div class="swiper-slide slide-center text-center item">
-                                          <div class="row card">
-                                              <div class="col-12">
-                                                  <img src="assets/images/about-otherpersonlogo.jpg" alt="Carlos Combaluzi" class="person">
-                                                  <h4>Carlos Combaluzi - Hoppers Real Estate</h4>
-                                                  <p>Its been a really pleasure to co-work with dan davison.</p>
-                                                  <ul class="navbar-nav social share-list ml-auto">
-                                                      <li class="nav-item">
-                                                          <a href="#" class="nav-link"><i class="icon-star ml-2 mr-2"></i></a>
-                                                      </li>
-                                                      <li class="nav-item">
-                                                          <a href="#" class="nav-link"><i class="icon-star ml-2 mr-2"></i></a>
-                                                      </li>
-                                                      <li class="nav-item">
-                                                          <a href="#" class="nav-link"><i class="icon-star ml-2 mr-2"></i></a>
-                                                      </li>
-                                                      <li class="nav-item">
-                                                          <a href="#" class="nav-link"><i class="icon-star ml-2 mr-2"></i></a>
-                                                      </li>
-                                                      <li class="nav-item">
-                                                          <a href="#" class="nav-link"><i class="icon-star ml-2 mr-2"></i></a>
-                                                      </li>
-                                                  </ul>
-                                              </div>
-                                          </div>
-                                      </div>
-                                  </div>
-                                  <div class="swiper-pagination"></div>
-                              </div>
-                          </div>
-
-
-                      </div>
-                  </div>
-              </aside>
-          </div>
-      </div>
-  </section>
-
-  <!-- Fun Facts -->
-  <section id="funfacts" class="section-2 odd counter funfacts">
-      <div class="container">
-          <div class="row text-center intro">
-              <div class="col-12">
-                  <h2>Fun Facts</h2>
-                  <p class="text-max-800">Over the years we have done many things that we are proud of. This motivates us to continue looking for new challenges in order to improve our services.</p>
-              </div>
-          </div>
-          <div data-aos-id="counter" data-aos="fade-up" data-aos-delay="200" class="row justify-content-center text-center items">
-              <div class="col-12 col-md-6 col-lg-3 item">
-                  <div data-percent="342" class="radial">
-                      <span></span>
-                  </div>
-                  <h4>Great Projects</h4>
-              </div>
-              <div class="col-12 col-md-6 col-lg-3 item">
-                  <div data-percent="128" class="radial">
-                      <span></span>
-                  </div>
-                  <h4>Innovations</h4>
-              </div>
-              <div class="col-12 col-md-6 col-lg-3 item">
-                  <div data-percent="745" class="radial">
-                      <span></span>
-                  </div>
-                  <h4>Cups of Coffee</h4>
-              </div>
-              <div class="col-12 col-md-6 col-lg-3 item">
-                  <div data-percent="691" class="radial">
-                      <span></span>
-                  </div>
-                  <h4>Happy Customers</h4>
-              </div>
-          </div>
-      </div>
-  </section>
-
-
-    <!-- About [video] -->
-    <section id="video" class="section-6 offers featured">
-      <div class="container smaller">
-        <div class="row text-center intro">
-          <div class="col-12">
-            <h2>Experience</h2>
-            <b3 class="text-max-800">My professional experience.</b3>
-          </div>
-        </div>
-        <div class="col-12 align-self-center">
-          <h4 class="text-max-800">
-            Unity UI Developer, JOSTL., London
-          </h4>
-          <ul>
-            <li>
-              Worked collaboratively to design and develop complex UI systems
-              inside Unity Engine, primarily focusing on creating a seamless
-              User Experience.
-            </li>
-            <li>
-              Supported in the planning of our sprint cycles, scoped intricate
-              tasks and managed the application’s bugs.
-            </li>
-            <li>
-              Designed and developed multiple mechanics based on my own
-              criticisms of the application and from studying the application’s
-              analytics. These include the navigation menu and the guest user
-              sign-up.
-            </li>
-            <li>
-              Mentored colleagues on their use of new software such as GitHub
-              and Unity.
-            </li>
-          </ul>
-        </div>
-        <br /><br />
-        <div class="col-12 align-self-center">
-          <h4 class="text-max-800">
-            Unity Game Developer, Cosmico, London
-          </h4>
-          <ul>
-            <li>
-              Worked collaboratively to develop an open world eLearning application for both iOS and Android.
-            </li>
-            <li>
-              Used Unity’s Addressable system and Remote Config to allow for dynamic content.
-            </li>
-            <li>
-              Gave, received, and acted upon feedback in pull requests and worked dynamically in a sprint cycle.
-            </li>
-            <li>
-              Created educational mini-games to evaluate and improve children’s skills In Maths, English and Science.
-            </li>
-          </ul>
-        </div>
-        <br /><br />
-        <div class="col-12 align-self-center">
-          <h4 class="text-max-800">
-            XR Developer, Altran Italia SpA, Milan
-          </h4>
-          <ul>
-            <li>
-              Researched and developed mechanics such as video streaming and machine learning which were then fed back to the development team and implemented into AR applications.
-            </li>
-            <li>
-              Developed AR use-cases for clients in Unity using ARCore and internal technologies, then produced video content ready for client feedback.
-            </li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-    <!-- Footer -->
-    <footer-component></footer-component>
-
-    <!-- #region Global ============================ -->
-
-    <!-- Modal [search] -->
-    <div
-      id="search"
-      class="p-0 modal fade"
-      role="dialog"
-      aria-labelledby="search"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog modal-dialog-slideout" role="document">
-        <div class="modal-content full">
-          <div class="modal-header" data-dismiss="modal">
-            Search <i class="icon-close"></i>
-          </div>
-          <div class="modal-body">
-            <form class="row">
-              <div class="col-12 p-0 align-self-center">
-                <div class="row">
-                  <div class="col-12 p-0 pb-3">
-                    <h2>What are you looking for?</h2>
-                    <p>
-                      Search for services and news about the best that happens
-                      in the world.
-                    </p>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-12 p-0 input-group">
-                    <input
-                      type="text"
-                      class="form-control"
-                      placeholder="Enter Keywords"
-                    />
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-12 p-0 input-group align-self-center">
-                    <button class="btn primary-button">
-                      <i class="icon-magnifier"></i>SEARCH
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Modal [sign] -->
-    <div
-      id="sign"
-      class="p-0 modal fade"
-      role="dialog"
-      aria-labelledby="sign"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog modal-dialog-slideout" role="document">
-        <div class="modal-content full">
-          <div class="modal-header" data-dismiss="modal">
-            Sign In Form <i class="icon-close"></i>
-          </div>
-          <div class="modal-body">
-            <form action="" class="row">
-              <div class="col-12 p-0 align-self-center">
-                <div class="row">
-                  <div class="col-12 p-0 pb-3">
-                    <h2>Sign In</h2>
-                    <p>
-                      Don't have an account?
-                      <a
-                        href="#"
-                        class="primary-color"
-                        data-toggle="modal"
-                        data-target="#register"
-                        >Register now</a
-                      >.
-                    </p>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-12 p-0 input-group">
-                    <input
-                      type="email"
-                      class="form-control"
-                      placeholder="Email"
-                      required
-                    />
-                  </div>
-                  <div class="col-12 p-0 input-group">
-                    <input
-                      type="password"
-                      class="form-control"
-                      placeholder="Password"
-                      required
-                    />
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-12 p-0 input-group align-self-center">
-                    <button class="btn primary-button">
-                      <i class="icon-login"></i>LOGIN
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Modal [register] -->
-    <div
-      id="register"
-      class="p-0 modal fade"
-      role="dialog"
-      aria-labelledby="register"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog modal-dialog-slideout" role="document">
-        <div class="modal-content full">
-          <div class="modal-header" data-dismiss="modal">
-            Register Form <i class="icon-close"></i>
-          </div>
-          <div class="modal-body">
-            <form action="" class="row">
-              <div class="col-12 p-0 align-self-center">
-                <div class="row">
-                  <div class="col-12 p-0 pb-3">
-                    <h2>Register</h2>
-                    <p>
-                      Have an account?
-                      <a
-                        href="#"
-                        class="primary-color"
-                        data-toggle="modal"
-                        data-target="#sign"
-                        >Sign In</a
-                      >.
-                    </p>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-12 p-0 input-group">
-                    <input
-                      type="text"
-                      class="form-control"
-                      placeholder="Name"
-                      required
-                    />
-                  </div>
-                  <div class="col-12 p-0 input-group">
-                    <input
-                      type="email"
-                      class="form-control"
-                      placeholder="Email"
-                      required
-                    />
-                  </div>
-                  <div class="col-12 p-0 input-group">
-                    <input
-                      type="password"
-                      class="form-control"
-                      placeholder="Password"
-                      required
-                    />
-                  </div>
-                  <div class="col-12 p-0 input-group">
-                    <input
-                      type="password"
-                      class="form-control"
-                      placeholder="Confirm Password"
-                      required
-                    />
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-12 p-0 input-group align-self-center">
-                    <button class="btn primary-button">
-                      <i class="icon-rocket"></i>REGISTER
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Modal [responsive menu] -->
-    <div
-      id="menu"
-      class="p-0 modal fade"
-      role="dialog"
-      aria-labelledby="menu"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog modal-dialog-slideout" role="document">
-        <div class="modal-content full">
-          <div class="modal-header" data-dismiss="modal">
-            Menu <i class="icon-close"></i>
-          </div>
-          <div class="menu modal-body">
-            <div class="row w-100">
-              <div class="items p-0 col-12 text-center">
-                <!-- Append [navbar] -->
-              </div>
-              <div class="contacts p-0 col-12 text-center">
-                <!-- Append [navbar] -->
-              </div>
+          <div class="slide-content row text-center">
+            <div class="col-12 mx-auto inner">
+              <h1 data-aos="zoom-out-up" data-aos-delay="400" class="title effect-static-text">
+                About Me
+              </h1>
             </div>
           </div>
         </div>
       </div>
     </div>
+  </section>
 
-    <!-- Scroll [to top] -->
-    <div id="scroll-to-top" class="scroll-to-top">
-      <a href="#header" class="smooth-anchor">
-        <i class="icon-arrow-up"></i>
-      </a>
+  <!-- Content -->
+  <section id="content" class="section-1 single">
+    <div class="container">
+      <div class="row">
+        <div class="row">
+          <div class="col-12 align-self-center">
+            <h2 class="featured mt-0 ml-0">About Me</h2>
+            <p>Hi, I'm Dan. I'm a software developer, primarily with experience developing apps and games for mobile and VR</p>
+            <p>I have 4 years of industry experience where I have developed Virtual Reality Experiences, worked on eLearning
+              Mobile Games, and developed Sports applications using real-time sports data. as well as this, I have worked
+              freelance, developing client visions from the initial concept phase, to publishing and releasing apps on both
+              Google Play Store and the Apple App Store.
+            </p>
+            <!--<p>
+                                <blockquote>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quam tortor, ultrices accumsan mauris eget, pulvinar tincidunt erat. Sed nisi nisi, rutrum sit amet elit.</blockquote>
+                            </p>-->
+            <p>I have a keen eye for detail and commitment to staying updated with the latest industry trends. Whether it's
+              developing captivating applications, or optimizing video games, I enjoy tackling new challenges and pushing
+              my own professional boundaries.</p>
+            <h4>Here's some of my key accomplishments.</h4>
+            <ul>
+              <li>Produced countless AR and VR projects for clients.</li>
+              <li>Worked on multiple published mobile games and applications.</li>
+              <li>Helped develop back-end and front-end development tools.</li>
+              <li>Worked collaboratively with developers and designers to create apps and games.</li>
+              <li>Worked directly with clients to fully captivate a client's vision</li>
+            </ul>
+            <p>Feel free to explore my portfolio to see some of the exciting projects I have worked on. Connect with me on LinkedIn
+              to </p>
+          </div>
+        </div>
+
+
+      </div>
     </div>
+    </aside>
+    </div>
+    </div>
+  </section>
 
-    <!-- ==============================================
+  <!-- About [video] -->
+  <section id="video" class="section-6 offers featured">
+    <div class="container smaller">
+      <div class="row text-center intro">
+        <div class="col-12">
+          <h2>Experience</h2>
+          <b3 class="text-max-800">My professional experience.</b3>
+        </div>
+      </div>
+      <div class="col-12 align-self-center">
+        <h4 class="text-max-800">
+          Unity UI Developer, JOSTL., London
+        </h4>
+        <ul>
+          <li>
+            Worked collaboratively to design and develop complex UI systems inside Unity Engine, primarily focusing on creating a seamless
+            User Experience.
+          </li>
+          <li>
+            Supported in the planning of our sprint cycles, scoped intricate tasks and managed the application’s bugs.
+          </li>
+          <li>
+            Designed and developed multiple mechanics based on my own criticisms of the application and from studying the application’s
+            analytics. These include the navigation menu and the guest user sign-up.
+          </li>
+          <li>
+            Mentored colleagues on their use of new software such as GitHub and Unity.
+          </li>
+        </ul>
+      </div>
+      <br />
+      <br />
+      <div class="col-12 align-self-center">
+        <h4 class="text-max-800">
+          Unity Game Developer, Cosmico, London
+        </h4>
+        <ul>
+          <li>
+            Worked collaboratively to develop an open world eLearning application for both iOS and Android.
+          </li>
+          <li>
+            Used Unity’s Addressable system and Remote Config to allow for dynamic content.
+          </li>
+          <li>
+            Gave, received, and acted upon feedback in pull requests and worked dynamically in a sprint cycle.
+          </li>
+          <li>
+            Created educational mini-games to evaluate and improve children’s skills In Maths, English and Science.
+          </li>
+        </ul>
+      </div>
+      <br />
+      <br />
+      <div class="col-12 align-self-center">
+        <h4 class="text-max-800">
+          Freelance XR Developer
+        </h4>
+        <ul>
+
+          <li>
+            Worked directly with clients to understand their vision, to successfully plan, develop and deliver projects.
+          </li>
+          <li>
+            Developed multiple AR applications for different use-cases inside of Unity, including games and eCommerce.
+          </li>
+          <li>
+            Published applications onto both Google Play Store and Apple App Store.
+          </li>
+        </ul>
+      </div>
+      <br />
+      <br />
+      <div class="col-12 align-self-center">
+        <h4 class="text-max-800">
+          XR Developer, Altran Italia SpA, Milan
+        </h4>
+        <ul>
+          <li>
+            Researched and developed mechanics such as video streaming and machine learning which were then fed back to the development
+            team and implemented into AR applications.
+          </li>
+          <li>
+            Developed AR use-cases for clients in Unity using ARCore and internal technologies, then produced video content ready for
+            client feedback.
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer-component></footer-component>
+
+  <!-- #region Global ============================ -->
+
+  <!-- Modal [search] -->
+  <div id="search" class="p-0 modal fade" role="dialog" aria-labelledby="search" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-slideout" role="document">
+      <div class="modal-content full">
+        <div class="modal-header" data-dismiss="modal">
+          Search
+          <i class="icon-close"></i>
+        </div>
+        <div class="modal-body">
+          <form class="row">
+            <div class="col-12 p-0 align-self-center">
+              <div class="row">
+                <div class="col-12 p-0 pb-3">
+                  <h2>What are you looking for?</h2>
+                  <p>
+                    Search for services and news about the best that happens in the world.
+                  </p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12 p-0 input-group">
+                  <input type="text" class="form-control" placeholder="Enter Keywords" />
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12 p-0 input-group align-self-center">
+                  <button class="btn primary-button">
+                    <i class="icon-magnifier"></i>SEARCH
+                  </button>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal [sign] -->
+  <div id="sign" class="p-0 modal fade" role="dialog" aria-labelledby="sign" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-slideout" role="document">
+      <div class="modal-content full">
+        <div class="modal-header" data-dismiss="modal">
+          Sign In Form
+          <i class="icon-close"></i>
+        </div>
+        <div class="modal-body">
+          <form action="" class="row">
+            <div class="col-12 p-0 align-self-center">
+              <div class="row">
+                <div class="col-12 p-0 pb-3">
+                  <h2>Sign In</h2>
+                  <p>
+                    Don't have an account?
+                    <a href="#" class="primary-color" data-toggle="modal" data-target="#register">Register now</a>.
+                  </p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12 p-0 input-group">
+                  <input type="email" class="form-control" placeholder="Email" required />
+                </div>
+                <div class="col-12 p-0 input-group">
+                  <input type="password" class="form-control" placeholder="Password" required />
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12 p-0 input-group align-self-center">
+                  <button class="btn primary-button">
+                    <i class="icon-login"></i>LOGIN
+                  </button>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal [register] -->
+  <div id="register" class="p-0 modal fade" role="dialog" aria-labelledby="register" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-slideout" role="document">
+      <div class="modal-content full">
+        <div class="modal-header" data-dismiss="modal">
+          Register Form
+          <i class="icon-close"></i>
+        </div>
+        <div class="modal-body">
+          <form action="" class="row">
+            <div class="col-12 p-0 align-self-center">
+              <div class="row">
+                <div class="col-12 p-0 pb-3">
+                  <h2>Register</h2>
+                  <p>
+                    Have an account?
+                    <a href="#" class="primary-color" data-toggle="modal" data-target="#sign">Sign In</a>.
+                  </p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12 p-0 input-group">
+                  <input type="text" class="form-control" placeholder="Name" required />
+                </div>
+                <div class="col-12 p-0 input-group">
+                  <input type="email" class="form-control" placeholder="Email" required />
+                </div>
+                <div class="col-12 p-0 input-group">
+                  <input type="password" class="form-control" placeholder="Password" required />
+                </div>
+                <div class="col-12 p-0 input-group">
+                  <input type="password" class="form-control" placeholder="Confirm Password" required />
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12 p-0 input-group align-self-center">
+                  <button class="btn primary-button">
+                    <i class="icon-rocket"></i>REGISTER
+                  </button>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal [responsive menu] -->
+  <div id="menu" class="p-0 modal fade" role="dialog" aria-labelledby="menu" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-slideout" role="document">
+      <div class="modal-content full">
+        <div class="modal-header" data-dismiss="modal">
+          Menu
+          <i class="icon-close"></i>
+        </div>
+        <div class="menu modal-body">
+          <div class="row w-100">
+            <div class="items p-0 col-12 text-center">
+              <!-- Append [navbar] -->
+            </div>
+            <div class="contacts p-0 col-12 text-center">
+              <!-- Append [navbar] -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scroll [to top] -->
+  <div id="scroll-to-top" class="scroll-to-top">
+    <a href="#header" class="smooth-anchor">
+      <i class="icon-arrow-up"></i>
+    </a>
+  </div>
+
+  <!-- ==============================================
         Google reCAPTCHA // Put your site key here
         =============================================== -->
-    <script src="https://www.google.com/recaptcha/api.js?render=6Lf-NwEVAAAAAPo_wwOYxFW18D9_EKvwxJxeyUx7"></script>
+  <script src="https://www.google.com/recaptcha/api.js?render=6Lf-NwEVAAAAAPo_wwOYxFW18D9_EKvwxJxeyUx7"></script>
 
-    <!-- ==============================================
+  <!-- ==============================================
         Vendor Scripts
         =============================================== -->
-    <script src="assets/js/vendor/jquery.min.js"></script>
-    <script src="assets/js/vendor/jquery.easing.min.js"></script>
-    <script src="assets/js/vendor/jquery.inview.min.js"></script>
-    <script src="assets/js/vendor/popper.min.js"></script>
-    <script src="assets/js/vendor/bootstrap.min.js"></script>
-    <script src="assets/js/vendor/ponyfill.min.js"></script>
-    <script src="assets/js/vendor/slider.min.js"></script>
-    <script src="assets/js/vendor/animation.min.js"></script>
-    <script src="assets/js/vendor/progress-radial.min.js"></script>
-    <script src="assets/js/vendor/bricklayer.min.js"></script>
-    <script src="assets/js/vendor/gallery.min.js"></script>
-    <script src="assets/js/vendor/shuffle.min.js"></script>
-    <script src="assets/js/vendor/cookie-notice.min.js"></script>
-    <script src="assets/js/vendor/particles.min.js"></script>
-    <script src="assets/js/main.js"></script>
+  <script src="assets/js/vendor/jquery.min.js"></script>
+  <script src="assets/js/vendor/jquery.easing.min.js"></script>
+  <script src="assets/js/vendor/jquery.inview.min.js"></script>
+  <script src="assets/js/vendor/popper.min.js"></script>
+  <script src="assets/js/vendor/bootstrap.min.js"></script>
+  <script src="assets/js/vendor/ponyfill.min.js"></script>
+  <script src="assets/js/vendor/slider.min.js"></script>
+  <script src="assets/js/vendor/animation.min.js"></script>
+  <script src="assets/js/vendor/progress-radial.min.js"></script>
+  <script src="assets/js/vendor/bricklayer.min.js"></script>
+  <script src="assets/js/vendor/gallery.min.js"></script>
+  <script src="assets/js/vendor/shuffle.min.js"></script>
+  <script src="assets/js/vendor/cookie-notice.min.js"></script>
+  <script src="assets/js/vendor/particles.min.js"></script>
+  <script src="assets/js/main.js"></script>
 
-    <!-- #endregion Global ========================= -->
-  </body>
+  <!-- #endregion Global ========================= -->
+</body>
+
 </html>
