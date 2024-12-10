@@ -130,11 +130,37 @@
               </p>
               <h3>The JOSTL. Live Game Experience</h3>
               <p>
-                Real-time Animate in and out to create a fluid System Live chat
+                For the live game experience, the application needed to listen to the server and create new questions on the front-end
+                that would slide into place. For this we used some server listeners to listen in on any new data that was being created
+                and then from there the data would get sent to our TablesController that would slide in and out the widgets where needed.
+                
+                <br><br>
+
+                We did a similar approach for the in-game chat. When entering a chat room we would add a listener, and slide in the new
+                messages when they are received or sent. Then when leaving the chat we would unregister from the chat room.
+              </p>
+              <h3>App Optimisation</h3>
+              <p>
+                We wanted the app the load as quickly and because of that I spent a lot of time optimising our booting processes so that we
+                could get users into the main menu as quickly as possible.
+                <br><br>
+                Firstly, using the profiler, I could determine what processes were causing delays. One of our larger delays was caused by loading
+                all the team and player data for several leagues from resources. I experimented with a few different methods and found that
+                separating ScriptableObjects reduced loading time of the larger ScriptableObjects and reduced their dependencies. From there I could
+                load the data where needed asynchronously with Unity's Addressable system. Although this made this process take longer, it would allow
+                For the boot process to be completed faster.
               </p>
               <h3>Native Features and User Experience</h3>
               <p>
-                I wanted to create a better UX Notifications Native back swipe Feedback buzzes
+                To address some other key mechanics for the application, I had to work on some native features for both Android Android
+                and iOS, these included: queuing local notifications and application permissions.
+
+                <br><br>
+
+                For the permissions, I had to develop some custom AAR plugins to plug into Unity to access some of Android's native
+                functionality. From there I could determine if users had certain permissions, whether we could request certain permissions
+                or whether some permissions were blocked. From there I could show the relevant UI and show the correct native prompt:
+                Requesting permissions or sending users to the app's settings to enable it themselves.
               </p>
             </div>
           </div>
