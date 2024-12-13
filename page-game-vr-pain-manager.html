@@ -116,16 +116,16 @@
                   <div class="col-lg-7" style="display: flex; ">
                     <div style="display: grid; align-items: center;">
                       <p>
-                        The project started with a lot of research into current treatments of Chronic Pain aswell as ways that VR is currently being
-                        utilised to treat different medical conditions. From the research that was conducted, I drew some
-                        conclusions to the type of care that VR could offer, and defined a more specific target audience
-                        and placement for project.
-                      </p>
-                      <p>
-                        The project started with a lot of research into current treatments of Chronic Pain aswell as ways that VR is currently being
-                        utilised to treat different medical conditions. From the research that was conducted, I drew some
-                        conclusions to the type of care that VR could offer, and defined a more specific target audience
-                        and placement for project.
+                        <b>Stretching and Activities</b><br>
+                        Stretching and movement is a large part of people coming to terms with their chronic pain, so I wanted to
+                        create a stretching exercise that would cater to all audiences. Initially the concept was to have
+                        different balloons that would spawn around the user, and the user would would have to reach their arm
+                        out to pop these balloons. I decided this might be too difficult for some patients who might not be able
+                        to reach their hand out to certain positions, and this gave us no opportunity to track their stretching process.
+                      <br><br>
+                        I then designed these stretching columns for users to raise their arm up and for them to visually identify how far
+                        could reach in these small blocks; amassing a certain amount of points for how far they had managed to stretch. These
+                        worked by using box colliders, and detecting how high the users hand rises through the tube.
                       </p>
                     </div>
                   </div>
@@ -137,66 +137,159 @@
                   <div class="col-lg-7" style="display: flex; ">
                     <div style="display: grid; align-items: center;">
                       <p>
-                        The project started with a lot of research into current treatments of Chronic Pain aswell as ways that VR is currently being
-                        utilised to treat different medical conditions. From the research that was conducted, I drew some
-                        conclusions to the type of care that VR could offer, and defined a more specific target audience
-                        and placement for project.
-                      </p>
-                      <p>
-                        The project started with a lot of research into current treatments of Chronic Pain aswell as ways that VR is currently being
-                        utilised to treat different medical conditions. From the research that was conducted, I drew some
-                        conclusions to the type of care that VR could offer, and defined a more specific target audience
-                        and placement for project.
+                        <b>Why is it on a desert island?</b>
+                        <br>
+                        Everyone has a different place where they feel relaxed; but it's scientifically proven that natural environments can
+                        reduce cortisol production and reduce stress. I wanted the user's experience to be as relaxing as possible because of this.
+                        I've also included natural sounds, like wind, and waves to truly immerse the player into the environment.
+                        Expanding on this concept I would include different places for the users to play in; a 
+                        I wanted users to really tour the island, so I gave them a clockwise route around the island, starting them off
+                        where they began.
+                        <br><br>
+                        Each location had a different mini-game for them to complete; going from the easier stretching tasks, to more
+                        complex puzzles and quizzes.
+                        <br><br>
+                        To develop this, I used a Unity Terrain to create islands, with a large plan with a water shader. On top of this I added
+                        some custom colours for sand and grass, and then added grass planes with the grass tool to deepen the grass effect.
                       </p>
                     </div>
                   </div>
                   <div class="col-lg-5 ">
                     <div style="display: flex; align-items: center; justify-content: center; height: 100%;">
-                      <img src="assets/images/vr-pain/painvr-measuringflexibility.jpg ">
+                      <img src="assets/images/vr-pain/painvr-leveldesign.jpg">
                     </div>
                   </div>
                 </div>
               </div>
 
-              <div class="gallery ">
-                <iframe title="Desert Island VR, Desert Island Loop Daytime " style="border: 1; display: block; margin:
-                    auto " width="853 " height="480 " src="https://www.youtube.com/embed/mKPdt--yUrE "></iframe>
+              <div class="container" style="padding-top: 50px">
+                <div class="row">
+                  <div class="col-lg-5 ">
+                    <div style="display: flex; align-items: center; justify-content: center; height: 100%;">
+                      <img src="assets/images/vr-pain/gif-vrpain-leafs.gif">
+                    </div>
+                  </div>
+                  <div class="col-lg-7" style="display: flex; ">
+                    <div style="display: grid; align-items: center;">
+                      <p>
+                        <b>Creating Wind in the Trees with Shader Graph</b><br>
+                        I wanted the environment to be less static, with more movement and more animation, to bring the environment to life.
+                      <br><br>
+                        I then designed these stretching columns for users to raise their arm up and for them to visually identify how far
+                        could reach in these small blocks; amassing a certain amount of points for how far they had managed to stretch.
+                      <br><br>
+                        To create this effect with Shader Graph, I combined time with position into a gradient noise to move the leafs over
+                        time. I then combined these back into the transform with the colours to create a simple rippling effect of the leaves.
+                        I left a few exposed variables to make these leaves configurable such as the Wind Density which I added to the scale of the
+                        Gradient Noise to increase the size of the ripple.
+                      </p>
+                    </div>
+                  </div>
+                </div>
               </div>
 
-              <p>
-                <br /> The project started with a lot of research into current treatments of Chronic Pain aswell as ways that VR
-                is currently being utilised to treat different medical conditions. From the research that was conducted,
-                I drew some conclusions to the type of care that VR could offer, and defined a more specific target audience
-                and placement for project. Furthermore, I expanded the research into the potential role that the environment
-                could play in the immersion and relaxation of a patient, and investigated how to create an immersive environment
-                for the patient.
-                <br />
-                <br /> After these stages I started on the design documentation for the project, working on designing specific
-                excersizes and activities; using the research as a solid base for the design, while incorperating excersizes
-                that are suggested by health care providers such as the NHS. As part of this I wanted to design a system
-                where users could track their progress, to help drive progression, but also give the patient a sense of accomplishment
-                when they had finished a session.
-                <br />
-              </p>
-
-              <!-- Image -->
+              <div class="col-12 align-self-center" style="align-items: center; margin:auto; width: 50%; padding-top: 30px;">
               <div class="gallery ">
-                <a href="assets/images/news-vrpain.png ">
-                  <img src="assets/images/news-vrpain.png " class="w-100 " />
+                <a href="assets/images/vr-pain/painvr-leafshader.jpg ">
+                  <img src="assets/images/vr-pain//painvr-leafshader.jpg" class="w-100" />
                 </a>
               </div>
+              </div>
 
-              <p>
-                <br /> Last but not least I started to develop the project. I used Unity's 3D Engine along with the SteamVR plugin
-                for the VR support. I also used other softwares such as Blender to create the 3D models.
-                <br />
-                <br />The project received a 1st, being graded at 82%.
-              </p>
+              <div class="container" style="padding-top: 50px">
+                <div class="row">
+                  <div class="col-lg-8" style="display: flex; ">
+                    <div style="display: grid; align-items: center;">
+                      <p>
+                        <b>Creating a Bubble Shader with Shader Graph</b>
+                        <br>
+                        The Bubble shader was a lot more complex as it contained a lot more and was a lot more complex. But it basically
+                        contained a position node that was altered with tiling and offset, and a gradient noise, blended with a reflection
+                        probe and a fresnel effect. Another reflection probe was added to the scene to amplify the reflection as well.
+                        </p>
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                    <div style="display: flex; align-items: center; justify-content: center; height: 100%;">
+                      <img src="assets/images/vr-pain/gif-vrpain-bubble.gif">
+                    </div>
+                  </div>
+                </div>
+              </div>
 
-              <p>
-                <a href="https://youtu.be/VIFUvYQ1xYE ">Gameplay Video</a>
-              </p>
+              <div class="col-12 align-self-center" style="align-items: center; margin:auto; width: 80%; padding-top: 30px;">
+                <div class="gallery ">
+                  <a href="assets/images/vr-pain/painvr-bubbleshader.jpg">
+                    <img src="assets/images/vr-pain//painvr-bubbleshader.jpg" class="w-100" />
+                  </a>
+                </div>
+              </div>
+
+              <div class="container" style="padding-top: 50px">
+                <div class="row">
+                  <div class="col-lg-6 ">
+                    <div style="display: flex; align-items: center; justify-content: center; height: 100%;">
+                      <img src="assets/images/vr-pain/painvr-savedata.jpg ">
+                    </div>
+                  </div>
+                  <div class="col-lg-2 ">
+                    <div style="display: flex; align-items: center; justify-content: center; height: 100%;">
+                      <img src="assets/images/vr-pain/painvr-savedata2.jpg ">
+                    </div>
+                  </div>
+                  <div class="col-lg-4" style="display: flex; ">
+                    <div style="display: grid; align-items: center;">
+                      <p>
+                        <b>Activity Tracking and JSONs</b><br>
+                        An important part of any rehab, and especially rehab to do with Chronic Pain is seeing progress, and an understand
+                        that what you're doing is helping.
+                      <br><br>
+                        Every time a user would finish their run I would save their details into a JSON and then save the file to disk. Then
+                        when the user would load their activity, I would load all the JSONs so users could review their progress over-time.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="container" style="padding-top: 50px">
+                <div class="row">
+                  <div class="col-lg-12">
+                    <p>
+                      <b>Gameplay Video</b>
+                      <br><br>
+                      You can view a full demo of the play through below. The gameplay shows
+                      <ul>
+                        <li>The main menu</li>
+                        <li>The stretching activity where users can stretch their arms</li>
+                        <li>The neck stretching game where users look around</li>
+                        <li>The puzzle game where users place blocks into a puzzle board</li>
+                        <li>The quiz game where users throw a ball into a box to answer questions</li>
+                        <li>The user's profile and activity tracking</li>
+                      </ul>
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="gallery "style="padding-top: 50px">
+                    <iframe
+                    width="853" 
+                    height="480" 
+                    style="border: 1; display: block; margin: auto;" 
+                    src="https://www.youtube.com/embed/VIFUvYQ1xYE" 
+                    title="Final Year Project Gameplay Demonstration" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerpolicy="strict-origin-when-cross-origin" 
+                    allowfullscreen>
+                  </iframe>
+              </div>
+            
+              
             </div>
+          </div>  
+          </div>
           </div>
         </main>
       </div>
