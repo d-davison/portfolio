@@ -92,7 +92,7 @@
   </section>
 
   <!-- Content -->
-  <section id="content" class="section-1 single featured">
+  <section id="content" class="section-1 single featured" style="text-align: justify">
     <div class="container">
       <div class="row">
         <!-- Main -->
@@ -116,16 +116,17 @@
                   <div class="col-lg-7" style="display: flex; ">
                     <div style="display: grid; align-items: center;">
                       <p>
-                        <b>Stretching and Activities</b><br>
-                        Stretching and movement is a large part of people coming to terms with their chronic pain, so I wanted to
-                        create a stretching exercise that would cater to all audiences. Initially the concept was to have
-                        different balloons that would spawn around the user, and the user would would have to reach their arm
-                        out to pop these balloons. I decided this might be too difficult for some patients who might not be able
-                        to reach their hand out to certain positions, and this gave us no opportunity to track their stretching process.
-                      <br><br>
-                        I then designed these stretching columns for users to raise their arm up and for them to visually identify how far
-                        could reach in these small blocks; amassing a certain amount of points for how far they had managed to stretch. These
-                        worked by using box colliders, and detecting how high the users hand rises through the tube.
+                        <b>Stretching and Activities</b>
+                        <br> Stretching and movement play a crucial role in helping individuals manage their chronic pain. My
+                        aim was to develop a stretching exercise that would be accessible to all users. Initially, the concept
+                        involved balloons that would spawn around the user, requiring them to reach out and pop the balloons.
+                        However, this approach might have been too challenging for some patients who may not be able to reach
+                        certain positions, and it did not provide a way to track their stretching progress.
+                        <br>
+                        <br> To address these challenges, I designed stretching columns that encourage users to raise their arms
+                        and visually measure how far they can reach within small blocks. Users earn points based on their
+                        reach, promoting gradual improvement. These columns utilize box colliders to detect how high the
+                        user's hand rises through the tube, effectively tracking their progress.
                       </p>
                     </div>
                   </div>
@@ -138,19 +139,20 @@
                     <div style="display: grid; align-items: center;">
                       <p>
                         <b>Why is it on a desert island?</b>
+                        <br> Everyone has a unique place where they find relaxation, but it's scientifically proven that natural
+                        environments can reduce cortisol production and lower stress. For these reasons, I decided to create
+                        a natural landscape as the environment for the game, with a low poly aesthetic to maintain a gap
+                        between the virtual and the real world. To ensure the user's experience is as relaxing as possible,
+                        I incorporated natural sounds like wind and waves to fully immerse them in the environment. Building
+                        on this concept, I envisioned different locations for users to explore, allowing them to tour the
+                        island in a clockwise route, starting from their initial point.
                         <br>
-                        Everyone has a different place where they feel relaxed; but it's scientifically proven that natural environments can
-                        reduce cortisol production and reduce stress. I wanted the user's experience to be as relaxing as possible because of this.
-                        I've also included natural sounds, like wind, and waves to truly immerse the player into the environment.
-                        Expanding on this concept I would include different places for the users to play in; a 
-                        I wanted users to really tour the island, so I gave them a clockwise route around the island, starting them off
-                        where they began.
-                        <br><br>
-                        Each location had a different mini-game for them to complete; going from the easier stretching tasks, to more
-                        complex puzzles and quizzes.
-                        <br><br>
-                        To develop this, I used a Unity Terrain to create islands, with a large plan with a water shader. On top of this I added
-                        some custom colours for sand and grass, and then added grass planes with the grass tool to deepen the grass effect.
+                        <br> Each location inside this tropical island features a unique mini-game, progressing from simple stretching
+                        tasks to more complex puzzles and quizzes.
+                        <br>
+                        <br> To develop the island, I utilized Unity Terrain to create the islands, adding a water shader for
+                        realistic water effects. I customized colors for sand and grass, and used the grass tool to add depth
+                        and richness to the landscape.
                       </p>
                     </div>
                   </div>
@@ -172,16 +174,15 @@
                   <div class="col-lg-7" style="display: flex; ">
                     <div style="display: grid; align-items: center;">
                       <p>
-                        <b>Creating Wind in the Trees with Shader Graph</b><br>
-                        I wanted the environment to be less static, with more movement and more animation, to bring the environment to life.
-                      <br><br>
-                        I then designed these stretching columns for users to raise their arm up and for them to visually identify how far
-                        could reach in these small blocks; amassing a certain amount of points for how far they had managed to stretch.
-                      <br><br>
-                        To create this effect with Shader Graph, I combined time with position into a gradient noise to move the leafs over
-                        time. I then combined these back into the transform with the colours to create a simple rippling effect of the leaves.
-                        I left a few exposed variables to make these leaves configurable such as the Wind Density which I added to the scale of the
-                        Gradient Noise to increase the size of the ripple.
+                        <b>Creating Wind in the Trees with Shader Graph</b>
+                        <br> To make the environment more dynamic and immersive, I aimed to incorporate more movement and animation.
+                        This approach helps create a more engaging and lifelike experience for users.
+                        <br>
+                        <br> To create this effect with Shader Graph, I combined time with position into a gradient noise to
+                        move the leafs over time. I then combined these back into the transform with the colours to create
+                        a simple rippling effect of the leaves. I left a few exposed variables to make these leaves configurable
+                        such as the Wind Density which I added to the scale of the Gradient Noise to increase the size of
+                        the ripple.
                       </p>
                     </div>
                   </div>
@@ -189,11 +190,11 @@
               </div>
 
               <div class="col-12 align-self-center" style="align-items: center; margin:auto; width: 50%; padding-top: 30px;">
-              <div class="gallery ">
-                <a href="assets/images/vr-pain/painvr-leafshader.jpg ">
-                  <img src="assets/images/vr-pain//painvr-leafshader.jpg" class="w-100" />
-                </a>
-              </div>
+                <div class="gallery ">
+                  <a href="assets/images/vr-pain/painvr-leafshader.jpg ">
+                    <img src="assets/images/vr-pain//painvr-leafshader.jpg" class="w-100" />
+                  </a>
+                </div>
               </div>
 
               <div class="container" style="padding-top: 50px">
@@ -202,11 +203,11 @@
                     <div style="display: grid; align-items: center;">
                       <p>
                         <b>Creating a Bubble Shader with Shader Graph</b>
-                        <br>
-                        The Bubble shader was a lot more complex as it contained a lot more and was a lot more complex. But it basically
-                        contained a position node that was altered with tiling and offset, and a gradient noise, blended with a reflection
-                        probe and a fresnel effect. Another reflection probe was added to the scene to amplify the reflection as well.
-                        </p>
+                        <br> The Bubble shader was a lot more complex as it contained a lot more and was a lot more complex.
+                        But it basically contained a position node that was altered with tiling and offset, and a gradient
+                        noise, blended with a reflection probe and a fresnel effect. Another reflection probe was added to
+                        the scene to amplify the reflection as well.
+                      </p>
                     </div>
                   </div>
                   <div class="col-lg-4">
@@ -240,12 +241,16 @@
                   <div class="col-lg-4" style="display: flex; ">
                     <div style="display: grid; align-items: center;">
                       <p>
-                        <b>Activity Tracking and JSONs</b><br>
-                        An important part of any rehab, and especially rehab to do with Chronic Pain is seeing progress, and an understand
-                        that what you're doing is helping.
-                      <br><br>
-                        Every time a user would finish their run I would save their details into a JSON and then save the file to disk. Then
-                        when the user would load their activity, I would load all the JSONs so users could review their progress over-time.
+                        <b>Activity Tracking and JSONs</b>
+                        <br> Seeing progress and understanding that your efforts are making a difference are crucial components
+                        of any rehabilitation process, especially when it comes to chronic pain. It provides motivation and
+                        reinforces the belief that the chosen path of treatment is effective.
+                        <br>
+                        <br> After each session, I saved user details and experience points into a JSON file and stored it on
+                        disk. This allowed users to load their activity data and review their progress over time, providing
+                        valuable feedback and motivation. To further encourage engagement, I implemented gamification elements
+                        such as leveling up. These devices gave patients more incentive to continue playing, as they could
+                        see their progress and achievements, making the rehabilitation process both effective and enjoyable.
                       </p>
                     </div>
                   </div>
@@ -257,8 +262,8 @@
                   <div class="col-lg-12">
                     <p>
                       <b>Gameplay Video</b>
-                      <br><br>
-                      You can view a full demo of the play through below. The gameplay shows
+                      <br>
+                      <br> You can view a full demo of the play through below. The gameplay shows
                       <ul>
                         <li>The main menu</li>
                         <li>The stretching activity where users can stretch their arms</li>
@@ -272,27 +277,20 @@
                 </div>
               </div>
 
-              <div class="gallery "style="padding-top: 50px">
-                    <iframe
-                    width="853" 
-                    height="480" 
-                    style="border: 1; display: block; margin: auto;" 
-                    src="https://www.youtube.com/embed/VIFUvYQ1xYE" 
-                    title="Final Year Project Gameplay Demonstration" 
-                    frameborder="0" 
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                    referrerpolicy="strict-origin-when-cross-origin" 
-                    allowfullscreen>
-                  </iframe>
+              <div class="gallery " style="padding-top: 50px">
+                <iframe width="853" height="480" style="border: 1; display: block; margin: auto;" src="https://www.youtube.com/embed/VIFUvYQ1xYE"
+                  title="Final Year Project Gameplay Demonstration" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                </iframe>
               </div>
-            
-              
+
+
             </div>
-          </div>  
           </div>
-          </div>
-        </main>
       </div>
+    </div>
+    </main>
+    </div>
     </div>
   </section>
 
